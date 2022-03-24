@@ -6,6 +6,11 @@ import Link from 'next/link';
 const PostItem = (props) => {
   const { slug, title, date, image, excerpt } = props.data;
   const linkPath = `/posts/${slug}`;
+  const formattedDate = new Date(date).toLocaleDateString('en-US', {
+    day: 'numeric',
+    year: 'numeric',
+    month: 'long',
+  });
   return (
     <Link href={linkPath}>
       <a>
@@ -18,7 +23,7 @@ const PostItem = (props) => {
           />
           <div className={classes.content}>
             <h3>{title}</h3>
-            <date className={classes.date}>{date}</date>
+            <date className={classes.date}>{formattedDate}</date>
             <p className={classes.excerpt}>{excerpt}</p>
           </div>
         </li>

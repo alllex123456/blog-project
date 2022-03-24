@@ -3,6 +3,7 @@
   background-color: rgb(16, 17, 29);
   border-radius: 5px;
   overflow: hidden;
+  min-height: 100%;
 }
 
 .content {
