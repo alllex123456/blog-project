@@ -1,0 +1,9 @@
+.posts {
+  max-width: 120rem;
+  min-height: 50rem;
+  margin: 0 auto;
+  padding: 4rem;
+  background-color: var(--color-cyan-90);
+  box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}

@@ -1,0 +1,15 @@
+.navigation ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+
+  font-size: var(--font-size-6);
+}
+
+.navigation a:link {
+  color: var(--color-cyan-10);
+}
+
+.navigation a:hover {
+  color: var(--color-cyan-20);
+}
