@@ -4,7 +4,7 @@ html {
   font-size: 62.5%;
 }
 
-body {
+:root {
   --color-cyan-100: #0b7285;
   --color-cyan-90: #0c8599;
   --color-cyan-80: #1098ad;
@@ -50,4 +50,12 @@ a {
 
 ul {
   list-style: none;
+  padding: 0;
+}
+
+h1 {
+  font-size: var(--font-size-18);
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 5px 2rem #000;
 }

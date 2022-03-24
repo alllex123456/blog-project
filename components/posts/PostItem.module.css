@@ -1,0 +1,23 @@
+.post {
+  box-shadow: 0 2px 1rem rgba(0, 0, 0, 0.3);
+  background-color: rgb(16, 17, 29);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.content {
+  padding: 2rem;
+  color: rgb(228, 224, 245);
+}
+
+.content h3 {
+  font-size: var(--font-size-8);
+}
+
+.content p {
+  font-size: var(--font-size-4);
+}
+
+.content date {
+  font-size: var(--font-size-4);
+}
